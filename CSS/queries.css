@@ -1,0 +1,581 @@
+
+/******************************************************* Media query for 1920px screen *******************************************************/
+
+@media only screen and (max-width:1920px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .nav_header2{
+        display: none;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .mobile-container{
+        display: none;
+    }
+    .nav_header{
+        width: 100%;
+        padding: 0;
+        padding-left: 28%;
+        margin-top: 2%;
+        padding-bottom: 1.5%;
+    }
+    h1{
+        margin-right: 4%;
+    }
+    .dumy{
+        margin: 1%;
+        padding: 0;
+        width: 20%;
+        margin-top: 8%;
+    }
+    #img_mock{
+        width: 70%;
+    }
+    .temp img{
+        width: 100%;
+    }
+    #feed_area{
+        height: 70vh; 
+    }
+    #form_button{
+        margin-right: 4%;
+    }
+    #feed_form{
+        margin-top: 7%;
+    }
+    .form_input{
+        width: 30%;
+        margin-bottom: 2%;
+        padding: 0.7%;
+        margin-left: 8%;
+    }
+    #textarea{
+        margin-left: 5.5%;
+    }
+}
+
+/******************************************************* Media query for 1200px screen *******************************************************/
+
+@media only screen and (max-width:1200px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .nav_header{
+        width: 100%;
+        padding: 0;
+        padding-left: 20%;
+        margin-top: 2%;
+    padding-bottom: 2%;
+    }
+    h1{
+        margin-right: 4%;
+    }
+    .dumy{
+        margin: 1%;
+        padding: 0;
+        width: 20%;
+        margin-top: 8%;
+    }
+    #img_mock{
+        width: 70%;
+    }
+    .temp img{
+        width: 100%;
+    }
+    #feed_area{
+        height: 70vh; 
+    }
+    #form_button{
+        margin-right: -2%;
+    }
+    #feed_form{
+        margin-top: 7%;
+    }
+    .form_input{
+        width: 30%;
+        margin-bottom: 2%;
+        padding: 0.7%;
+        margin-left: 8%;
+    }
+    #textarea{
+        margin-left: 5%;
+    }
+}  
+
+/******************************************************* Media query for 1024px screen ******************************************************/
+
+@media only screen and (max-width:1024px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .nav_header{
+        width: 100%;
+        padding: 0 15%;
+        margin-top: 2%;
+        padding-bottom: 2%;
+        margin-bottom: -3%;
+    }
+    h1{
+        margin-right: 4%;
+    }
+    .dumy{
+        margin: 1%;
+        padding: 0;
+        width: 20%;
+        margin-top: 8%;
+    }
+    #img_mock{
+        width: 70%;
+    }
+    .temp img{
+        width: 100%;
+    }
+    #feed_area{
+        height: 80vh; 
+    }
+    #form_button{
+        margin-right: -5%;
+    }
+    #feed_form{
+        margin-top: 7%;
+    }
+    .form_input{
+        width: 30%;
+        margin-bottom: 2%;
+        padding: 0.7%;
+        margin-left: 8%;
+    }
+    #textarea{
+        margin-left: 3.5%;
+    }
+    .nav_header li{
+      margin-bottom: 6%; 
+    }
+    #email_input{
+        margin-left: 7.5%;
+    }
+}
+
+/******************************************************* Media query for 970px screen *******************************************************/
+
+@media only screen and (max-width:970px){
+    #feed_area{
+        height: 80vh; 
+    }
+}
+
+/******************************************************* Media query for 900px screen *******************************************************/
+
+@media only screen and (max-width:900px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    h2{
+        font-size: 35px;
+    }
+    .nav_header{
+        width: 124%;
+        padding: 0 10%;
+    }
+    h1{
+        margin-right: 4%;
+    }
+    .dumy{
+        margin: 1%;
+        padding: 0;
+        width: 22%;
+        margin-top: 6%;
+    }
+    #img_mock{
+        width: 70%;
+    }
+    .temp img{
+        width: 100%;
+    }
+    #feed_area{
+        height: 70vh; 
+    }
+    #form_button{
+        margin-left: 3%;
+    }
+    #feed_form{
+        margin-top: 7%;
+    }
+    .form_input{
+        width: 45%;
+        margin-bottom: 2%;
+        padding: 0.7%;
+        margin-left: 13%;
+    }
+    #textarea{
+        margin-left: 2.1%;
+    }
+    .nav_header li{
+      margin-bottom: 6%; 
+    }
+    #email_input{
+        margin-left: 12.5%;
+    }
+    #feed_area h2{
+       font-size: 30px;
+    }
+    .dumy p{
+        font-size: 18px;
+    }
+    .dumy:last-child{
+        margin-right: 1%;
+    }
+    #dumy_text{
+        display: flex;
+        margin-bottom: 3%;
+        flex-wrap: wrap;
+        width: 139%;
+    }
+    .dumy:first-child{
+        margin-left: 1.5%;
+    }
+    .section_workshop{
+        width: 100%;
+        margin-bottom: 3%;
+        display: flex;
+    }
+    .temp{
+        padding: 0%;
+    }
+    .workshop_div p {
+        font-size: 19.5px;
+        font-weight: 300;
+    }
+    #middle_text{
+        text-align: center;
+        font-size: 20px;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 84%;
+    }
+    .feedback_section{
+        display: flex;
+        width: 100%;
+        margin-left: 0.5%;
+    }
+}
+
+
+@media only screen and (max-width:810px){
+    .workshop_div{
+        width: 100%;
+        display: flex;
+    }
+}
+
+
+/******************************************************* Media query for 620px screen *******************************************************/
+
+@media only screen and (max-width:620px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    h2{
+        font-size: 35px;
+    }
+    .nav_header{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        margin-right: 4%;
+    }
+    .dumy{
+        margin: 1%;
+        padding: 0;
+        width: 22%;
+        margin-top: 6%;
+    }
+    #img_mock{
+        width: 70%;
+    }
+    .temp img{
+        width: 100%;
+    }
+    #feed_area{
+        height: 70vh; 
+    }
+    #form_button{
+        margin-left: 3%;
+    }
+    #feed_form{
+        margin-top: 7%;
+    }
+    .form_input{
+        width: 45%;
+        margin-bottom: 2%;
+        padding: 0.7%;
+        margin-left: 8%;
+    }
+    #textarea{
+        margin-left: 2.1%;
+    }
+    .nav_header li{
+      margin-bottom: 6%; 
+    }
+    #email_input{
+        margin-left: 7.5%;
+    }
+    #feed_area h2{
+       font-size: 30px;
+    }
+    .form_label{
+        font-size: 22px;
+    }
+    .dumy p{
+        font-size: 16px;
+    }
+    .dumy:last-child{
+        margin-right: 1%;
+    }
+    #dumy_text{
+        display: flex;
+        margin-bottom: 3%;
+        flex-wrap: wrap;
+        width: 139%;
+    }
+    .dumy:first-child{
+        margin-left: 1.5%;
+    }
+    .section_workshop{
+        width: 100%;
+        margin-bottom: 3%;
+        display: flex;
+    }
+    .temp{
+        padding: 0%;
+    }
+    .workshop_div p {
+        font-size: 16px;
+        font-weight: 300;
+    }
+    #middle_text{
+        text-align: center;
+        font-size: 20px;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 84%;
+    }
+    .feedback_section{
+        display: flex;
+        width: 100%;
+        margin-left: 0.5%;
+    }
+    .feedback_section p {
+        font-size: 16px;
+    }
+}
+
+/******************************************************* Media query for 505px screen *******************************************************/
+@media only screen and (max-width:505px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    h1{
+        font-size: 45px;
+        margin-top: 20%;
+    }
+    h2{
+        font-size: 30px;
+    }
+    #middle_text{
+        text-align: center;
+        font-size: 18px;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 84%;
+    }
+    h1{
+       display: none;
+    }
+    .titleText{
+        display: block;
+        position: absolute;
+        top: 24%;
+        left: 23%;
+        font-size: 32px;
+        font-weight: 300;
+        font-family: 'Lato',"Arial", sans-serif;
+        text-transform: uppercase;
+        color: #441f40;
+    }
+    #a4{
+        margin-right: 2%;
+    }
+    .dumy{
+        margin: 1%;
+        padding: 0;
+        width: 22%;
+        margin-top: 6%;
+    }
+    .dumy h3{
+        font-size: 20px;
+        padding: 4%;
+    }
+    #h2{
+        margin-top: 43%;
+    }
+    #img_mock{
+        width: 70%;
+    }
+    .temp img{
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    #feed_area{
+        height: 120vh; 
+    }
+    #form_button{
+        font-size: 16px;
+        margin-right: -2%;
+    }
+    #feed_form{
+        margin-top: 7%;
+        font-size: 19px;
+    }
+    .form_input{
+        width: 60%;
+        margin-bottom: 2%;
+        padding: 0.7%;
+        margin-left: 8%;
+        font-size: 18px;
+        border: 1px solid #000;
+    }
+    #textarea{
+        margin-left: -1.9%;
+    }
+    #email_input{
+        margin-left: 7.5%;
+    }
+    #feed_area h2{
+       font-size: 30px;
+    }
+    .dumy p{
+        font-size: 18px;
+        width: 313%;
+        padding: 3%;
+    }
+    .dumy:last-child{
+        margin-right: 1%;
+    }
+    #dumy_text{
+        display: grid;
+    }
+    .dumy:first-child{
+        margin-left: 1.5%;
+    }
+    .section_workshop{
+        display: grid;
+    }
+    .temp{
+        padding: 0%;
+    }
+    .workshop_div p {
+        font-size: 18px;
+        font-weight: 300;
+        padding-left: 11%;
+        padding-right: 11%;
+    }
+    .workshop_div{
+        margin-top: 8%;
+    }
+    .feedback_section{
+        display: grid;
+        width: 100%;
+    }
+    .feedback_section cite{
+        font-size: 14px;
+    }
+    .feedback_section p{
+        font-size: 18px;
+        margin-bottom: 5%;
+    }
+    #aboutcake{
+        margin-bottom: 5%;
+    }
+    .comment_section{
+        display: grid;
+        padding: 1%;
+        margin: 1%;
+    }
+    .sticky{
+        display: none;
+    }
+    .mobile-container {
+        max-width: 505px;
+        margin: auto;
+        border-radius: 10px;
+        display: block;
+      }
+      
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+      }
+      
+      .topnav #myLinks {
+        display: none;
+      }
+      
+      .topnav a {
+        color: white;
+        padding: 10px 11px;
+        text-decoration: none;
+        font-size: 16px;
+        display: block;
+      }
+      
+      .topnav a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+        transition: 0.6s;
+      }
+      .active {
+        color: white;
+      }
+}
